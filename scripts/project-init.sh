@@ -237,32 +237,20 @@ if [ -d "$SPECIFY_DIR" ] && [ "$FORCE" = false ]; then
 else
   info "从模板复制 speckit 目录结构..."
 
-  # 查找参考项目（优先使用 kkday-kkpartners-api）
-  REFERENCE_SPECIFY=""
-  for candidate in "$PROJECTS_BASE/kkday-kkpartners-api/.specify" "$AI_HUB_DIR/../kkday-kkpartners-api/.specify"; do
-    if [ -d "$candidate" ]; then
-      REFERENCE_SPECIFY="$candidate"
-      break
-    fi
-  done
+  # 从 ai-hub-shanghai 公共 speckit 模板复制
+  GLOBAL_SPECKIT="$AI_HUB_DIR/global/speckit"
 
-  if [ -n "$REFERENCE_SPECIFY" ]; then
-    mkdir -p "$SPECIFY_DIR/memory" "$SPECIFY_DIR/scripts" "$SPECIFY_DIR/templates"
-    cp "$REFERENCE_SPECIFY/init-options.json" "$SPECIFY_DIR/init-options.json"
-    [ -d "$REFERENCE_SPECIFY/scripts" ] && cp -r "$REFERENCE_SPECIFY/scripts/." "$SPECIFY_DIR/scripts/"
-
-    # 使用 global 通用需求模板
-    if [ -f "$TEMPLATE_DIR/requirements-template.md" ]; then
-      cp "$TEMPLATE_DIR/requirements-template.md" "$SPECIFY_DIR/templates/requirements-template.md"
-    fi
-
-    success "speckit 目录结构已创建（从 $(basename $(dirname $REFERENCE_SPECIFY)) 复制）"
+  if [ -d "$GLOBAL_SPECKIT" ]; then
+    mkdir -p "$SPECIFY_DIR/memory" "$SPECIFY_DIR/scripts/bash" "$SPECIFY_DIR/templates"
+    cp "$GLOBAL_SPECKIT/init-options.json" "$SPECIFY_DIR/init-options.json"
+    cp -r "$GLOBAL_SPECKIT/scripts/." "$SPECIFY_DIR/scripts/"
+    cp -r "$GLOBAL_SPECKIT/templates/." "$SPECIFY_DIR/templates/"
+    success "speckit 目录结构已创建（从 ai-hub-shanghai/global/speckit 复制）"
     info "⚠️  /speckit.constitution 需在 Claude Code 中手动执行（交互式，无法自动化）"
     STEP5_STATUS="✅"
   else
-    warn "未找到参考项目的 .specify 目录，请手动执行："
-    warn "  cd $PROJECT_DIR && specify init --here"
-    warn "  或手动创建 .specify/ 目录结构"
+    warn "未找到公共 speckit 模板：$GLOBAL_SPECKIT"
+    warn "请手动执行：cd $PROJECT_DIR && specify init --here"
     STEP5_STATUS="❌"
   fi
 fi

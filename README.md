@@ -11,6 +11,10 @@ ai-hub-shanghai/
 ├── README.md                  # 本文件：工作流说明 + 新项目接入指南
 ├── global/
 │   ├── initialized_projects.md   # 已初始化项目记录（初始化前先查此文件）
+│   ├── speckit/                  # 公共 speckit 配置（新项目初始化时复制）
+│   │   ├── init-options.json
+│   │   ├── scripts/bash/         # speckit 脚本
+│   │   └── templates/            # speckit 模板（spec/plan/tasks/checklist 等）
 │   └── templates/
 │       ├── requirements-template.md   # 通用需求填写模板（各项目复用）
 │       └── CLAUDE.md.template         # 通用 CLAUDE.md 模板（新项目复制使用）
