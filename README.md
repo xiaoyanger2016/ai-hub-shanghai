@@ -105,31 +105,34 @@ ai-hub-shanghai/
 
 ---
 
-## 新项目快速接入（5 步）
+## 新项目快速接入
+
+> **最快方式**：两个仓库都 clone 好后，在新项目目录中打开 Claude Code，说「初始化项目配置」，Claude 会自动引导完成全部步骤。
+>
+> 以下是手动步骤说明，也是 Claude 自动执行的内容。
 
 ### 前置条件
 
-- Claude Code CLI 已安装（`claude` 命令可用）
+- Claude Code CLI 已安装（`claude` 命令可用，若没有：`npm install -g @anthropic-ai/claude-code`）
 - `gh` CLI 已安装并已登录 GitHub
 - Jira API token 已获取（`https://id.atlassian.com/manage-profile/security/api-tokens`）
+- 两个仓库已 clone 到同级目录：
+  ```bash
+  git clone git@github.com:<your-org>/<new-project>.git
+  git clone git@github.com:<your-org>/ai-hub-shanghai.git
+  ```
 
-### Step 1 — Clone 两个仓库
+---
+
+### Step 1 — 初始化 ai-hub-shanghai 项目目录
 
 ```bash
-git clone git@github.com:<your-org>/<new-project>.git
-git clone git@github.com:<your-org>/ai-hub-shanghai.git
-```
-
-### Step 2 — 初始化 ai-hub-shanghai 项目目录
-
-```bash
-PROJECT_NAME=<new-project>   # 与项目仓库名一致
-AI_HUB=/path/to/ai-hub-shanghai
+AI_HUB=/Applications/ServBay/www/ai-hub-shanghai   # 修改为实际路径
+PROJECT_NAME=<new-project>                           # 与仓库名一致
 
 mkdir -p $AI_HUB/projects/$PROJECT_NAME/memory
 mkdir -p $AI_HUB/projects/$PROJECT_NAME/specs
 
-# 创建记忆索引
 cat > $AI_HUB/projects/$PROJECT_NAME/memory/MEMORY.md << 'EOF'
 # Memory Index
 
@@ -137,15 +140,15 @@ cat > $AI_HUB/projects/$PROJECT_NAME/memory/MEMORY.md << 'EOF'
 |------|------|------|
 EOF
 
-cd $AI_HUB && git add . && git commit -m "init: add $PROJECT_NAME project directory"
+cd $AI_HUB && git add projects/$PROJECT_NAME/ && git commit -m "init: add $PROJECT_NAME project directory"
 ```
 
-### Step 3 — 在新项目配置 Claude 本地设置
+---
+
+### Step 2 — 在新项目创建 `.claude/settings.local.json`
 
 ```bash
 PROJECT_DIR=/path/to/<new-project>
-AI_HUB=/path/to/ai-hub-shanghai
-PROJECT_NAME=<new-project>
 
 mkdir -p $PROJECT_DIR/.claude
 
@@ -154,55 +157,102 @@ cat > $PROJECT_DIR/.claude/settings.local.json << EOF
   "autoMemoryDirectory": "$AI_HUB/projects/$PROJECT_NAME/memory/",
   "permissions": {
     "additionalDirectories": ["$AI_HUB/projects/$PROJECT_NAME/"]
-  },
-  "env": {
-    "JIRA_EMAIL": "<your-jira-email>",
-    "JIRA_TOKEN": "<your-jira-api-token>"
   }
 }
 EOF
 
-# 加入 .gitignore
+# 加入 .gitignore（避免本地绝对路径泄露到 git）
 echo ".claude/settings.local.json" >> $PROJECT_DIR/.gitignore
 ```
 
-### Step 4 — 安装 speckit 并初始化
+> Jira 认证（`JIRA_EMAIL` / `JIRA_TOKEN`）和 Jenkins 认证统一配置在 `~/.claude/settings.json` 的 `env` 段，不放在 settings.local.json。
+
+---
+
+### Step 3 — 配置 Jenkins 认证（若有 CI/CD）
+
+在 `~/.claude/settings.json` 的 `env` 段追加（若复用已有变量则跳过）：
+
+```json
+"JENKINS_USER_<ENV>": "<your-jenkins-user>",
+"JENKINS_TOKEN_<ENV>": "<your-jenkins-api-token>"
+```
+
+---
+
+### Step 4 — 安装 speckit 并执行 constitution
 
 ```bash
 cd $PROJECT_DIR
 npx speckit@latest init
-# 交互选项：
-#   AI: claude
-#   Mode: here（CLAUDE.md 放项目根目录）
-#   Script: sh
+# 交互选项：AI=claude, mode=here, script=sh
 ```
+
+安装完成后，在 Claude Code 对话中执行 `/speckit.constitution`，建立项目代码规范原则（仅首次，或规范变更时重新执行）。
+
+---
 
 ### Step 5 — 编写 CLAUDE.md
 
-参考本仓库 `projects/kkday-kkpartners-api/` 的 CLAUDE.md 结构，关键章节：
+复制 `global/templates/CLAUDE-template.md`（若存在）或参考 `projects/kkday-kkpartners-api/` 的 CLAUDE.md，必须包含以下章节：
 
-| 章节（必须包含）| 说明 |
+| 章节 | 说明 |
 |------|------|
 | Project Overview | 项目目标、用户、技术栈 |
 | Common Development Commands | 安装/运行/测试/Lint 命令 |
 | Codebase Architecture | 关键目录、API 结构 |
-| 变量命名规范 | 团队命名风格 |
-| 配置项管理规范 | 禁止 hardcode 规则 |
-| 统一错误/成功响应格式 | API 输出规范 |
-| **需求规划工作流** | 复制本文件"工作流一"内容，修改 Jira project key |
-| **提交前检查工作流** | 复制本文件"工作流二"内容，替换为项目实际 Lint/Test 命令 |
-| **PR 行为准则** | 复制本文件"工作流三"内容，修改 fork 账号 |
-| **Worklog 同步 Jira 规则** | 复制本文件"工作流五"内容 |
-| **对话启动自检** | 复制本文件"工作流六"内容，替换 PR 编号和 repo |
+| 变量命名 & 配置项管理规范 | snake_case + 禁止 hardcode |
+| 统一错误/成功响应格式 | `metadata.status` + `data` |
+| **需求规划工作流**（参考下方「工作流一」）| 修改 Jira project key 和 issuetype id |
+| **提交前检查工作流**（参考下方「工作流二」）| 替换为项目实际 Lint/Test 命令 |
+| **PR 行为准则**（参考下方「工作流三」）| 修改 fork 账号和 repo |
+| **Worklog 同步 Jira 规则**（参考下方「工作流五」）| |
+| **对话启动自检**（参考下方「工作流六」）| 替换 PR 编号和 repo |
 | Claude 自我进化准则 | memory 写入规则 |
 
-完成后验证：
+---
+
+### Step 6 — 验证配置
 
 ```bash
-cd $PROJECT_DIR
-claude
-# 对话中输入：这是一轮新的对话
-# 预期：Claude 静默完成启动检查，输出 PR 状态汇报
+# 1. Claude 已安装
+claude --version
+
+# 2. settings.local.json 格式正确
+python3 -m json.tool $PROJECT_DIR/.claude/settings.local.json
+
+# 3. ai-hub-shanghai 目录已创建
+ls $AI_HUB/projects/$PROJECT_NAME/memory/MEMORY.md
+
+# 4. speckit 已安装
+ls $PROJECT_DIR/.specify/
+
+# 5. constitution 已生成
+ls $PROJECT_DIR/.specify/constitution.md
+
+# 6. CLAUDE.md 包含关键章节
+grep -c "需求规划工作流\|PR 行为准则\|Worklog" $PROJECT_DIR/CLAUDE.md
+
+# 7. .gitignore 包含 settings.local.json
+grep "settings.local.json" $PROJECT_DIR/.gitignore
+```
+
+全部通过后，在 `global/initialized_projects.md` 追加记录。
+
+---
+
+### Step 7 — 记录初始化完成
+
+在本仓库 `global/initialized_projects.md` 追加一行：
+
+```markdown
+| `<REPO_SLUG>` | `<PROJECT_ROOT>` | <TODAY> | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+```
+
+提交到 ai-hub-shanghai：
+
+```bash
+cd $AI_HUB && git add global/initialized_projects.md && git commit -m "init: mark <REPO_SLUG> as fully initialized"
 ```
 
 ---
