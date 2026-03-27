@@ -9,7 +9,13 @@
 ```
 ai-hub-shanghai/
 ├── README.md                  # 本文件：工作流说明 + 新项目接入指南
-├── global/                    # 全局通用配置（预留）
+├── global/
+│   ├── initialized_projects.md   # 已初始化项目记录（初始化前先查此文件）
+│   └── templates/
+│       ├── requirements-template.md   # 通用需求填写模板（各项目复用）
+│       └── CLAUDE.md.template         # 通用 CLAUDE.md 模板（新项目复制使用）
+├── scripts/
+│   └── project-init.sh        # 一键初始化新项目脚本
 └── projects/
     └── <project-name>/
         ├── memory/            # Claude 自动记忆文件（跨会话持久化）
@@ -107,9 +113,16 @@ ai-hub-shanghai/
 
 ## 新项目快速接入
 
-> **最快方式**：两个仓库都 clone 好后，在新项目目录中打开 Claude Code，说「初始化项目配置」，Claude 会自动引导完成全部步骤。
+> **最快方式（推荐）**：使用一键初始化脚本：
+> ```bash
+> # 在 ai-hub-shanghai 目录下执行
+> ./scripts/project-init.sh kkday-ota-api-84
+> ```
+> 脚本会自动完成 Step 1–6，完成后在 Claude Code 中执行 `/speckit.constitution` 即可。
 >
-> 以下是手动步骤说明，也是 Claude 自动执行的内容。
+> 或者在新项目目录中打开 Claude Code，说「初始化项目配置」，Claude 会自动引导。
+>
+> 以下是各步骤的详细说明：
 
 ### 前置条件
 

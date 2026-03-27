@@ -1,0 +1,303 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+<!-- ============================================================
+  使用说明：
+  1. 执行 project-init.sh 时会自动复制此文件并替换以下占位符：
+     {{REPO_SLUG}}     → 仓库名（如 kkday-ota-api-84）
+     {{FORK_ACCOUNT}}  → 个人 fork 账号（如 xiaoyanger2016）
+     {{ORG_ACCOUNT}}   → 组织账号（如 kkday-it）
+     {{AI_HUB_DIR}}    → ai-hub-shanghai 本地路径
+  2. 复制后请填写所有 [TODO: ...] 标记的内容
+  3. 删除本注释块
+============================================================ -->
+
+## Project Overview
+
+项目名称：[TODO: 项目中文名] ({{REPO_SLUG}})
+
+仓库：git@github.com:{{FORK_ACCOUNT}}/{{REPO_SLUG}}.git（fork 自 {{ORG_ACCOUNT}}/{{REPO_SLUG}}）
+
+性质：[TODO: 项目定位，如「Laravel 构建的 REST API，对接 XXX 服务」]
+
+主要用户：
+- [TODO: 用户类型1]：[TODO: 主要操作]
+- [TODO: 用户类型2]：[TODO: 主要操作]
+
+当前阶段：[TODO: 开发中 / 已上线]
+
+近期迭代焦点：[TODO: 当前主要工作方向]
+
+明确非目标：[TODO: 不在本服务范围内的职责]
+
+技术栈：[TODO: 如 PHP 8.1 / Laravel 10 / Redis / MySQL]
+
+---
+
+## Common Development Commands
+
+### Setup & Installation
+```bash
+composer install
+cp .env.example .env
+php artisan key:generate
+```
+
+### Running the Application
+```bash
+php artisan serve
+```
+
+### Testing
+```bash
+./vendor/bin/phpunit
+./vendor/bin/phpunit --testsuite Unit
+./vendor/bin/phpunit --testsuite Feature
+```
+
+### Code Quality & Linting
+```bash
+./vendor/bin/phpcs
+./vendor/bin/phpcbf
+```
+
+---
+
+## Codebase Architecture
+
+### Key Directories
+- `app/Http/Controllers/` - [TODO: 控制器组织方式]
+- `app/Services/` - 业务逻辑和外部服务集成
+- `app/Http/Requests/` - 表单验证
+- `routes/` - 路由定义
+- `tests/` - PHPUnit 测试（Feature + Unit）
+- `config/` - 配置文件
+
+### API Structure
+[TODO: 描述 API 版本化策略，如 /api/v1, /api/v2]
+
+---
+
+## Code Standards
+
+- PSR-2 编码规范
+- PHP Code Sniffer：`./vendor/bin/phpcs`
+- [TODO: 其他规范]
+
+### 变量与属性命名规范（强制）
+- 所有本地变量与类属性 **必须** 使用 `snake_case`（下划线命名法）
+- 方法名使用 `camelCase`，此规范仅适用于变量与属性
+
+### 配置项管理规范（强制）
+- **禁止 Hardcode**：URL、TTL、分页大小等**必须**提取到 `config/` 目录
+- **优先复用现有配置文件**，无合适位置时新建配置文件
+
+### 行长度规范（强制）
+- 超过 PSR-2 行长限制的语句 **必须** 拆行
+
+---
+
+## 统一错误响应格式
+
+```json
+{
+  "metadata": {
+    "status": "ERROR_CODE",
+    "desc": "错误描述"
+  },
+  "data": null
+}
+```
+
+## 统一成功响应格式
+
+```json
+{
+  "metadata": {
+    "status": "0000",
+    "desc": "success"
+  },
+  "data": []
+}
+```
+
+---
+
+## 需求规划工作流 / Requirements Workflow（speckit）
+
+> **完整流程参考**：`{{AI_HUB_DIR}}/README.md` 的「完整开发工作流 → 一、需求规划工作流」
+
+### 使用说明
+
+开始新需求前，执行以下流程：
+
+**Step 0 — 确认 Jira 单（一切操作的前提）**
+
+所有需求开发 MUST 先有 Jira ticket。Claude 在执行任何规划动作前 MUST 确认 Jira 编号存在。
+- Jira Project Key：[TODO: 如 KKPAR / KMP / KOTA]
+- 分支命名格式：`task/[JIRA_PREFIX]-XXXX_描述`
+
+**Step 1 — 创建需求目录并填写模板（MUST 自动执行）**
+
+执行 `/speckit.specify` 时，Claude MUST 自动：
+1. 推导 Jira 编号（从分支名）
+2. 在 `{{AI_HUB_DIR}}/projects/{{REPO_SLUG}}/specs/<branch-name>/` 创建目录
+3. 复制模板（优先：`{{AI_HUB_DIR}}/global/templates/requirements-template.md`）
+4. 展示给用户填写
+
+**Step 2-6** — 参考 `{{AI_HUB_DIR}}/README.md` 完整工作流
+
+**speckit.tasks 完成后 MUST 自动创建 Jira 子任务**（issuetype id 查询：`GET /rest/api/3/project/[KEY]`）
+
+---
+
+## 提交前检查工作流（每次 push 前 MUST）
+
+**每次 push 前必须完成以下全部步骤：**
+
+**Step 1** — `/simplify` 三路并行 Code Review
+
+**Step 2** — 专职 code review 子任务（git diff 全量检查）
+
+**Step 3** — 运行 PHPCS
+```bash
+./vendor/bin/phpcs
+# 有错误则先修复：
+./vendor/bin/phpcbf && ./vendor/bin/phpcs
+```
+
+**Step 4** — 运行单元测试
+```bash
+./vendor/bin/phpunit --testsuite Unit
+```
+全绿才可继续。
+
+**Step 5** — Push
+```bash
+git push origin <branch>
+```
+
+---
+
+## PR 行为准则（强制遵守）
+
+**每次提交 PR 后 MUST 执行：**
+
+1. **push 前运行 PHPCS**：有错误先 phpcbf 修复再提交
+2. **等待 GitHub CI 全部通过**：
+   ```bash
+   gh pr checks <PR号> --repo {{ORG_ACCOUNT}}/{{REPO_SLUG}}
+   ```
+3. **回复所有 Code Review 评论**：接受改 → 说明改动；不改 → 说明原因；沉默属违规
+
+### PR 标题格式
+`type/[JIRA_PREFIX]-XXXX_简短描述: 变更说明`
+
+### PR 提交规则
+- fork 用户名固定为 `{{FORK_ACCOUNT}}`
+- 提交 PR 时 MUST 在对应 Jira 远端仓库 `{{ORG_ACCOUNT}}/{{REPO_SLUG}}` 创建同名分支（base: develop）
+- PR 方向：from `{{FORK_ACCOUNT}}:<branch>` into `{{ORG_ACCOUNT}}:<branch>`
+
+### CI 通过后询问部署
+
+CI 通过后 MUST 询问是否部署到测试环境（列出所有环境 + 当前将部署的 branch）。
+
+---
+
+## 测试工作流 / Testing Workflow
+
+代码完成后、提交 PR 前 MUST 执行：
+
+**Step 1** — 生成 `{{AI_HUB_DIR}}/projects/{{REPO_SLUG}}/specs/<branch>/test-checklist.md`
+
+**Step 2** — 展示 checklist，等待用户确认
+
+**Step 3** — 完成 Feature Test 后生成 `api-test-checklist.md`
+
+**Step 4** — 有 API 变更时询问本地测试
+
+---
+
+## Worklog 同步 Jira 规则（MUST）
+
+每次更新 worklog.md 后 MUST 同步（不询问用户）：
+
+1. POST 新增条目到 Jira 评论（ADF 格式）
+2. 按时间戳推算用时，POST 到 Jira Work Log
+3. 输出：`✅ 工作日志已更新，已同步 Jira 评论 & Work Log（用时：Xh Ym）`
+
+worklog 路径：`{{AI_HUB_DIR}}/projects/{{REPO_SLUG}}/specs/<branch>/worklog.md`
+
+---
+
+## 每次对话开始时自动执行（MUST）
+
+每次新对话开始时，**后台静默完成以下步骤**：
+
+### A. 重建 PR 监控 cron（若已失效）
+1. `CronList` 检查是否有 PR 监控 job → 无则重建
+2. `RemoteTrigger` 确认 remote trigger enabled
+
+### B. 执行一次 PR 静默检查
+```bash
+# 1. PR 状态
+gh pr view <PR_NUMBER> --repo {{ORG_ACCOUNT}}/{{REPO_SLUG}} --json state --jq '.state'
+
+# 2. CI 状态（background kill 防挂起）
+gh pr checks <PR_NUMBER> --repo {{ORG_ACCOUNT}}/{{REPO_SLUG}} 2>&1 &
+PID=$!; sleep 15 && kill $PID 2>/dev/null & wait $PID 2>/dev/null || true
+
+# 3. 未回复评论
+gh api "repos/{{ORG_ACCOUNT}}/{{REPO_SLUG}}/pulls/<PR_NUMBER>/comments?per_page=100" \
+  --jq '[.[] | select(.in_reply_to_id != null) | .in_reply_to_id] as $replied |
+        [.[] | select(.in_reply_to_id == null) | select(.id as $id | $replied | index($id) == null)]'
+```
+
+- MERGED → 通知「PR 已合并！」
+- CI 失败 → 通知「CI ❌ 失败：[名称]」
+- 有未回复评论 → 分析并自动回复，通知「已自动回复 N 条」
+- 一切正常 → 完全静默
+
+> **[TODO: 首次使用时替换 `<PR_NUMBER>` 为实际 PR 编号，并配置 remote trigger]**
+
+---
+
+## Claude 自我进化准则 / Self-Evolution
+
+非显而易见的经验 MUST 保存到 `{{AI_HUB_DIR}}/projects/{{REPO_SLUG}}/memory/`：
+- 技术决策 → `feedback_*.md`
+- 行为偏好 → `feedback_*.md`
+- 进行中工作 → `project_*.md`
+- 外部系统访问方式 → `reference_*.md`
+
+**禁止重复询问的内容（已记录到记忆）：**
+- 已记录到记忆的事项，不得重复询问用户
+
+---
+
+## SIT/DEV 部署工作流 / Deployment Workflow
+
+[TODO: 填写测试环境信息]
+
+### 测试环境列表
+
+| 简称 | 用途 | Jenkins Job URL |
+|------|------|-----------------|
+| [TODO] | [TODO] | [TODO] |
+
+### 触发命令
+```bash
+curl -X POST "<JENKINS_JOB_URL>/buildWithParameters" \
+  -u "$JENKINS_USER:$JENKINS_TOKEN" \
+  --data-urlencode "DEPLOY_GIT_NAME=branches/<branch名>" \
+  --data-urlencode "DEPLOY_GIT_ACCOUNT=<account>"
+```
+
+---
+
+## Active Technologies
+- [TODO: 技术栈，如 PHP 8.1（Laravel 10）]
+
+## Recent Changes
+<!-- 由 Claude 自动更新 -->
