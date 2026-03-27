@@ -17,7 +17,7 @@
 
 | 项目 | 路径 | 初始化日期 | Claude | ai-hub-shanghai | settings.local | speckit | constitution | CLAUDE.md | 验证通过 |
 |------|------|-----------|--------|----------------|---------------|---------|-------------|----------|---------|
-| `kkday-kkpartners-api` | `/Applications/ServBay/www/kkday-kkpartners-api` | 2026-03-23 | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| `kkday-kkpartners-api` | `/Applications/ServBay/www/kkday-kkpartners-api` | 2026-03-23 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 ---
 
