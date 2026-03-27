@@ -8,6 +8,7 @@
 
 | 时间 | 事件 |
 |------|------|
+
 | 13:45 | 首次提交：赞助商品列表新增目的地栏位 + 下载 CSV 基础框架 |
 | 14:33 | 修复 destinations 始终为空 bug；修复第一轮 Copilot review（5 项） |
 | 14:43–14:54 | 临时 debug log → 改用 prod_mid 正确注入 destinations → 移除 debug log |
