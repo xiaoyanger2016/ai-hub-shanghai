@@ -1,0 +1,500 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.7.14">
+  <diagram name="第 1 页" id="pr9Kzg95S91La3FlQpBA">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-1" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;KKPAR-807 劳保单签署流程图&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="295" y="93" width="510" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-2" value="KKpartners Web" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-3" value="KKpartners Api" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-4" value="KKpartners Svc" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-5" value="Affiliate Svc" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-7" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="320" width="10" height="3040" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-8" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="320" width="10" height="3040" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-9" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="775" y="320" width="10" height="3040" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-10" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1135" y="320" width="10" height="3040" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.026;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="kS2gCY-bnvdQ-kzmupwi-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="460" as="sourcePoint" />
+            <mxPoint x="450" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-13" value="" style="image;html=1;image=img/lib/clip_art/people/Suit_Man_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="80" y="380" width="40" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-14" value="请求api检查是否可签署劳保单" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="366" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-16" value="捞CID未付款的结算数据/个人资料/银行资料" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="400" as="sourcePoint" />
+            <mxPoint x="1130" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.053;entryY=0.9;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.542;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="kS2gCY-bnvdQ-kzmupwi-16" target="kS2gCY-bnvdQ-kzmupwi-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="522" y="434" as="sourcePoint" />
+            <mxPoint x="600" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-20" value="个人资料&amp;amp;银行资料" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="440" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-21" value="未付款的结算资料" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="366" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1130" y="642" as="sourcePoint" />
+            <mxPoint x="490" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-23" value="处理数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="530" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="560" as="sourcePoint" />
+            <mxPoint x="530" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-26" value="返回个人和银行资料" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="530" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-27" value="返回未请款结算数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="575" y="606" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-28" value="是否为台湾个人户&lt;span style=&quot;background-color: initial;&quot;&gt;且银行币别&lt;/span&gt;&lt;div&gt;&lt;div&gt;是TWD&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="530" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kS2gCY-bnvdQ-kzmupwi-23" target="kS2gCY-bnvdQ-kzmupwi-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="690" as="sourcePoint" />
+            <mxPoint x="600" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kS2gCY-bnvdQ-kzmupwi-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="640" as="sourcePoint" />
+            <mxPoint x="60" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-31" value="不可签署&lt;div&gt;劳保单&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="530" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-32" value="流程结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="530" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kS2gCY-bnvdQ-kzmupwi-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-50" y="560" as="sourcePoint" />
+            <mxPoint x="-160" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-34" value="劳保单仅针对台湾个人户，&lt;div&gt;银行币别为TWD的&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="55" y="510" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-35" value="web端不显示&lt;div&gt;签署按钮&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="510" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-36" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;否&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="558" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-37" value="未付款的月份累计佣金总金额&lt;div&gt;是否满200USD&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="680" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-38" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="278" y="597" as="sourcePoint" />
+            <mxPoint x="278" y="677" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.444;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="kS2gCY-bnvdQ-kzmupwi-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="690" as="sourcePoint" />
+            <mxPoint x="50" y="709.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-40" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;否&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="660" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-42" value="" style="image;html=1;image=img/lib/clip_art/people/Suit_Man_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="80" y="800" width="40" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-43" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.164;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="kS2gCY-bnvdQ-kzmupwi-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="750" as="sourcePoint" />
+            <mxPoint x="270" y="780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-44" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="768" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-45" value="满200 USD" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="788" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-46" value="可签署&lt;div&gt;劳保单&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="780" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-47" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="820" as="sourcePoint" />
+            <mxPoint x="-20" y="820" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-48" value="web端显示&lt;div&gt;签署劳保单&lt;div&gt;按钮&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="798" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-49" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-80" y="860" as="sourcePoint" />
+            <mxPoint x="370" y="930" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-80" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-50" value="获取劳保&lt;div&gt;对账单数据&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="900" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-51" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;获取劳保&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;对账单数据&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="900" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-52" value="CID未付款月份的结算数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="900" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-54" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="930" as="sourcePoint" />
+            <mxPoint x="550" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-55" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="930" as="sourcePoint" />
+            <mxPoint x="1130" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-56" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1120" y="1039.5" as="sourcePoint" />
+            <mxPoint x="480" y="1039.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-57" value="产CID未付款月份的对账单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1010" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-58" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.367;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="kS2gCY-bnvdQ-kzmupwi-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="1120" as="sourcePoint" />
+            <mxPoint x="770" y="1120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="413" y="1120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-59" value="返回结算数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1008" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-60" value="保存对账单资料" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="495" y="1088" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-61" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="1200" as="sourcePoint" />
+            <mxPoint x="470" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-62" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="1200" as="sourcePoint" />
+            <mxPoint x="140" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-63" value="返回对账单资料和银行/个人资料" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="485" y="1168" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-64" value="查询联盟用户个人资料和银行资料" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1118" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-65" value="处理数据&lt;div&gt;返回&lt;/div&gt;&lt;div&gt;劳保对账单资料&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="1168" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-66" value="" style="image;html=1;image=img/lib/clip_art/people/Suit_Man_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="80" y="1180.5" width="40" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-67" value="此时未签署劳保单，不会产生劳保单编号" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1158" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-69" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="1200" as="sourcePoint" />
+            <mxPoint x="370" y="1350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="1200" />
+              <mxPoint x="40" y="1350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-70" value="确认并&lt;div&gt;签署劳保单&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="1233" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-71" value="上传劳动报酬单PDF档案" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1312" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-72" value="保存劳保单资料&lt;div&gt;生成劳保单编号&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1238" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-73" value="记录劳保单签署record" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1400" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-75" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1270" width="80" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-76" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="1270" as="sourcePoint" />
+            <mxPoint x="760" y="1320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="760" y="1270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-77" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="655" y="1424" as="sourcePoint" />
+            <mxPoint x="760" y="1400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="760" y="1424" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-78" value="保存数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1330" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-79" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="1360" as="sourcePoint" />
+            <mxPoint x="470" y="1520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="920" y="1360" />
+              <mxPoint x="920" y="1520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-80" value="返回结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1490" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-81" value="返回签署结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="1490" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-82" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="1521" as="sourcePoint" />
+            <mxPoint x="40" y="1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-83" value="流程结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-55" y="1490" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-84" value="展示签署结果&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;成功 or 失败&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1488" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-85" value="签署成功会有劳保单编号生成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1523" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-86" value="&lt;span id=&quot;docs-internal-guid-d7cc0e51-7fff-eca6-f959-67a20be1647f&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: &amp;quot;Comic Sans MS&amp;quot;, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;affiliate_labor_statement_record&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1400" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-87" value="&lt;span id=&quot;docs-internal-guid-fc2ca557-7fff-32d9-c122-5a9d4d831848&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: &amp;quot;Comic Sans MS&amp;quot;, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;affiliate_labor_statement&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1233" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-88" value="" style="image;html=1;image=img/lib/clip_art/people/Tech_Man_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="30" y="1700" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-89" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.467;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="kS2gCY-bnvdQ-kzmupwi-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="1710" as="sourcePoint" />
+            <mxPoint x="430" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-90" value="劳保单退回" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1710" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-93" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;action=&lt;/span&gt;&lt;span style=&quot;color: rgb(74, 134, 232); text-align: left; white-space-collapse: preserve; background-color: rgb(239, 239, 239);&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot; face=&quot;Comic Sans MS&quot;&gt;SIGNED:签署&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1430" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-95" value="&lt;span style=&quot;color: rgb(74, 134, 232); text-align: left; white-space-collapse: preserve; background-color: rgb(239, 239, 239);&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 10px;&quot;&gt;status=SIGNED:已签署&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1273" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-96" value="检查&amp;amp;生成&lt;div&gt;劳保单资料&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="372" y="1320" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-97" value="&lt;div&gt;检查&amp;amp;更新&lt;/div&gt;&lt;div&gt;劳保单资料&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="432" y="1710" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-98" value="更新&lt;div&gt;劳保单资料&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="1710" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-99" value="记录劳保单退回record" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="1850" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-100" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="1740" as="sourcePoint" />
+            <mxPoint x="700" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-101" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="1780" as="sourcePoint" />
+            <mxPoint x="695" y="1879.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="1880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-102" value="保存数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="1786" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-103" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="810" y="1740" as="sourcePoint" />
+            <mxPoint x="920" y="1780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="920" y="1740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-104" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="805" y="1880" as="sourcePoint" />
+            <mxPoint x="920" y="1850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="920" y="1880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-105" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kS2gCY-bnvdQ-kzmupwi-102">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="1970" as="sourcePoint" />
+            <mxPoint x="470" y="2000" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="1816" />
+              <mxPoint x="1000" y="2000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-106" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="2000" as="sourcePoint" />
+            <mxPoint x="150" y="2000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-107" value="&lt;span id=&quot;docs-internal-guid-fc2ca557-7fff-32d9-c122-5a9d4d831848&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: &amp;quot;Comic Sans MS&amp;quot;, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;affiliate_labor_statement&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1670" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-108" value="&lt;span id=&quot;docs-internal-guid-d7cc0e51-7fff-eca6-f959-67a20be1647f&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: &amp;quot;Comic Sans MS&amp;quot;, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;affiliate_labor_statement_record&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1910" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-109" value="&lt;span style=&quot;color: rgb(74, 134, 232); text-align: left; white-space-collapse: preserve; background-color: rgb(239, 239, 239);&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 10px;&quot;&gt;status=&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(74, 134, 232); text-align: left; white-space-collapse: preserve; background-color: rgb(239, 239, 239);&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot; face=&quot;Comic Sans MS&quot;&gt;DEPRECATED:已退回&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1710" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-110" value="&lt;span style=&quot;color: rgb(74, 134, 232); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; background-color: rgb(239, 239, 239); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot; face=&quot;Comic Sans MS&quot;&gt;action=DEPRECATED:已退回（已废弃)&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1880" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-111" value="返回退回结果" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="482.5" y="1960" width="92.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-114" value="退回成功，联盟用户重签劳保单" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1960" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-116" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.013;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="kS2gCY-bnvdQ-kzmupwi-70">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="2010" as="sourcePoint" />
+            <mxPoint x="-10" y="1930" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-10" y="1980" />
+              <mxPoint x="-500" y="1680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-117" value="" style="image;html=1;image=img/lib/clip_art/people/Suit_Man_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="55" y="1970" width="40" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-118" value="有请款中的月份不可退回劳保单" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1670" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-119" value="" style="image;html=1;image=img/lib/clip_art/people/Suit_Man_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="-240" y="153" width="40" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-120" value="" style="image;html=1;image=img/lib/clip_art/people/Tech_Man_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="-255" y="210" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-121" value="联盟用户" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="153" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kS2gCY-bnvdQ-kzmupwi-122" value="管理员" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="225" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zZCWd51zTIOHWJtgA_QP-1" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="618" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zZCWd51zTIOHWJtgA_QP-2" value="实时重产对账单" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="990" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zZCWd51zTIOHWJtgA_QP-3" value="生成&amp;amp;保存劳保单资料" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1350" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zZCWd51zTIOHWJtgA_QP-4" value="&lt;font color=&quot;#ff0000&quot;&gt;检查不通过，&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;返回特定的error code&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1395" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zZCWd51zTIOHWJtgA_QP-5" value="符合要求" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="465" y="1312" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zZCWd51zTIOHWJtgA_QP-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="1390" as="sourcePoint" />
+            <mxPoint x="420" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

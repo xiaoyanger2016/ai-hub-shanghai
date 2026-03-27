@@ -17,4 +17,3 @@
 | [feedback_pr_monitor_auto.md](feedback_pr_monitor_auto.md) | feedback | PR 监控检查自动执行，不询问确认，结果一次性汇报 |
 | [reference_jira.md](reference_jira.md) | reference | Jira URL 从分支名推导、API 认证、PR 后自动转 Review/Demo(id:61) |
 | [reference_pr_monitor_jobs.md](reference_pr_monitor_jobs.md) | reference | PR #1062 监控 job 配置，会话重启后自动重建 session cron + remote trigger |
-| [feedback_backup_policy.md](feedback_backup_policy.md) | feedback | 备份文件统一放 ai-hub-shanghai 对应项目的 backup/ 目录，不留在项目本身 |

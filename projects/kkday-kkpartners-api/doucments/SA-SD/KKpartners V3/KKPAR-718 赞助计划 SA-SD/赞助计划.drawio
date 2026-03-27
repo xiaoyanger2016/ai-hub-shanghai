@@ -1,0 +1,191 @@
+<mxfile host="app.diagrams.net" modified="2024-06-24T07:42:34.025Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="HQZxaRzAiBTix-6OrQmp" version="24.5.5" type="google">
+  <diagram name="申请赞助计划" id="HxPI7TL2jdbKgntJZk6A">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_ynbaQNBMdoF3R0m9FYW-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-1" value="kkpartners web" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_ynbaQNBMdoF3R0m9FYW-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-2" value="kkpartners api" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_ynbaQNBMdoF3R0m9FYW-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-3" value="kkpartners svc" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_ynbaQNBMdoF3R0m9FYW-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-7" value="用户填写赞助计划申请" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_ynbaQNBMdoF3R0m9FYW-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-9" value="验证用户同类型的赞助任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-11" value="传递uuid，status，type" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="445" y="188" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_ynbaQNBMdoF3R0m9FYW-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-12" value="根据条件查询赞助任务表，关联affiliate_member" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_ynbaQNBMdoF3R0m9FYW-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="380" />
+              <mxPoint x="280" y="760" />
+              <mxPoint x="380" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-14" value="验证此次申请的type" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-15" value="1 = 商品赞助" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="410" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_ynbaQNBMdoF3R0m9FYW-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="1120" as="targetPoint" />
+            <mxPoint x="380" y="720" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="521" y="720" />
+              <mxPoint x="521" y="1120" />
+              <mxPoint x="380" y="1120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-16" value="验证是否有状态为「逾期繳交資料」或「未依規定繳件」" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-18" value="任务申请中，请勿重复申请" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-19" value="有" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="428" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_ynbaQNBMdoF3R0m9FYW-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="822" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-22" value="验证用户等级是否小于「探險家」" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="802" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-23" value="2=粉丝赞助" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="560" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-26" value="用户等级不足" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="802" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-27" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="790" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_ynbaQNBMdoF3R0m9FYW-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="904" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-29" value="验证用户是否本月已申请（5号重置）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="884" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-30" value="用户本月已申请" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="884" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-31" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="872" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_ynbaQNBMdoF3R0m9FYW-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="984" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-33" value="验证用户是否有不是「完成」或「拒绝」的任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="964" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-34" value="任务申请中，请勿重复申请" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="964" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-35" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="952" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_ynbaQNBMdoF3R0m9FYW-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-39" value="验证商品是否超过10个" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-41" value="已達申請上限，贊助最多申請 10 個商品" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="518" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-42" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="518" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-43" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="600" as="sourcePoint" />
+            <mxPoint x="560" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-44" value="新增赞助计划" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="580" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-45" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="660" as="sourcePoint" />
+            <mxPoint x="560" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-46" value="新增赞助计划的商品" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="640" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_ynbaQNBMdoF3R0m9FYW-47" value="发送给market申请赞助邮件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8sCOMiDzLYFaQLeHN-M4-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="1060" as="sourcePoint" />
+            <mxPoint x="560" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8sCOMiDzLYFaQLeHN-M4-2" value="新增赞助计划" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1040" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,387 @@
+<mxfile host="app.diagrams.net" modified="2024-01-09T09:05:15.412Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="vrdeuvAr48CwpfWTiUr-" version="22.1.15" type="google" pages="2">
+  <diagram name="bpm草稿流程图" id="jBIZ7Qz4u9vXMdeHszYh">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-2" value="KKparners Web" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-3" value="KKpartners API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-4" value="KKpartners SVC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-5" value="Affiliate SVC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-6" value="Odoo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-9" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="140" width="10" height="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-10" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="140" width="10" height="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-11" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="775" y="140" width="10" height="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-12" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="140" width="10" height="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-13" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1335" y="140" width="10" height="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="226" y="240" as="sourcePoint" />
+            <mxPoint x="496" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-15" value="请求api批量生成BPM草稿" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="208" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.392;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="32qUS-lmVJfvTvWxZ80Q-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="507.5" y="440" as="sourcePoint" />
+            <mxPoint x="1052.5" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="432" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-17" value="从affiliate-svc捞取结账单（affilate_settle）相关资料" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="495" y="410" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1039" y="500" as="sourcePoint" />
+            <mxPoint x="514" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-19" value="返回并处理所需资料" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="535" y="470" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="505" y="240" as="sourcePoint" />
+            <mxPoint x="775" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-22" value="生成operation log操作日志&lt;span id=&quot;docs-internal-guid-8daec1e6-7fff-1a86-c693-251bb1c69424&quot;&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="200" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="507" y="692" as="sourcePoint" />
+            <mxPoint x="777" y="692" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-24" value="生成bpm_task,bpm_draft, bpm_settle_list,&lt;br&gt;bpm_status_change_log记录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="640" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-25" value="生成task_request_uuid关联的bpm_draft记录&lt;br&gt;生成新的bpm_requet_id（唯一）, bpm_task_status=null&lt;br&gt;&lt;br&gt;打affilate_svc失败，生bpm_create_status=FAILED,status=&amp;nbsp;CREATE_FAILED&lt;br&gt;&lt;br&gt;打affilate_svc成功&lt;br&gt;若bpm_create_status=SUCCESS,status=&amp;nbsp;WAITING_CREATE&lt;br&gt;&lt;br&gt;若bpm_create_status=&amp;nbsp;DATA_CHECK_ERROR，COM_INVOICE_ERROR，&lt;br&gt;INVOICE_MULTI_CURRENCY_ERROR时,&lt;br&gt;status= CREATE_FAILED" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="380" width="430" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-26" value="生成bpm_task记录，生成新的task_request_uuid,send_email_status=0" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="238" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-27" value="生成bpm_requet_id关联的bpm_settle_list记录，&lt;br&gt;&lt;br&gt;打affilate_svc失败，status=FAILED&lt;span style=&quot;background-color: initial;&quot;&gt;(草稿建立失败)&lt;/span&gt;&lt;br&gt;&lt;br&gt;打affilate_svc成功捞资料成功&lt;br&gt;若bpm_draft记录status=&amp;nbsp;WAITING_CREATE,status=TO_DO&lt;span style=&quot;background-color: initial;&quot;&gt;(草稿建立中&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;br&gt;若bpm_draft记录status=CREATE_FAILED,status=&amp;nbsp;FAILED(草稿建立失败)" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="590" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-30" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=1.013;entryY=0.613;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.134;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="r4xvwZjaB4m0UC0vev4D-10" target="r4xvwZjaB4m0UC0vev4D-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="530" as="sourcePoint" />
+            <mxPoint x="500" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-31" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=1;entryY=0.692;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="r4xvwZjaB4m0UC0vev4D-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="690" as="sourcePoint" />
+            <mxPoint x="225" y="297" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-32" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=1.005;entryY=0.637;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="r4xvwZjaB4m0UC0vev4D-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="700" as="sourcePoint" />
+            <mxPoint x="220" y="433" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-33" value="生成bpm_requet_id关联的bpm_status_change_log记录&lt;br&gt;&lt;br&gt;打affilate_svc失败，action= CREATE_FAILED&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;打affilate_svc成功捞资料成功&lt;br&gt;&lt;br&gt;若bpm_draft记status=&amp;nbsp;WAITING_CREATE,action=WAITING_CREATE&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;若bpm_draft记录status=CREATE_FAILED ,action= CREATE_FAILED" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="760" width="430" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.446;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="872" as="sourcePoint" />
+            <mxPoint x="1335" y="871.8000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-36" value="打odoo请求BPM草稿创建" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="555" y="840" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-37" value="需要bpm_draft记录&lt;br&gt;bpm_create_status=SUCCESS,&lt;br&gt;status=&amp;nbsp;WAITING_CREATE才会打odoo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="525" y="882" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-38" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1325" y="1032" as="sourcePoint" />
+            <mxPoint x="505" y="1032" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-39" value="处理odoo返回结果，并更新bpm草稿状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="992" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-40" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="522" y="1152" as="sourcePoint" />
+            <mxPoint x="755" y="1152" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-42" value="打odoo成功" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="1122" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-43" value="打odoo失败" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="1312" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-45" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="r4xvwZjaB4m0UC0vev4D-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="385" y="1352" as="sourcePoint" />
+            <mxPoint x="485" y="1032" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="315" y="1032" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-46" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="317" y="1152" as="sourcePoint" />
+            <mxPoint x="387" y="1152" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-48" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="r4xvwZjaB4m0UC0vev4D-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="385" y="1352" as="sourcePoint" />
+            <mxPoint x="485" y="1032" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="315" y="1352" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-47" value="处理odoo结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="265" y="1100" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-49" value="&lt;br&gt;更新草稿状态" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="765" y="1122" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-50" value="&lt;br&gt;更新草稿状态" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="765" y="1312" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-51" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="1341.5" as="sourcePoint" />
+            <mxPoint x="753" y="1341.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-52" value="更新bpm_draft记录&lt;br&gt;status=&amp;nbsp;BPM_CREATED,&amp;nbsp;&lt;br&gt;bpm_task_status=CR&lt;br&gt;bpm_task_oid" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1080" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-53" value="更新bpm_settle_list记录，status=CREATED&lt;span style=&quot;background-color: initial;&quot;&gt;(草稿已建立&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1092" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-54" value="更新bpm_draft记录&lt;br&gt;status=&amp;nbsp;CREATE_FAILED" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="545" y="1302" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-55" value="新增bpm_status_change_log记录&lt;br&gt;action=&amp;nbsp;BPM_CREATED&lt;br&gt;bpm_task_oid&lt;br&gt;bpm_task_status=CR" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="835" y="1147" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-56" value="更新bpm_settle_list记录，status=FAILED&lt;span style=&quot;background-color: initial;&quot;&gt;(草稿建立失败)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1290" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r4xvwZjaB4m0UC0vev4D-57" value="新增bpm_status_change_log记录&lt;br&gt;action= CREATE_FAILED" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="835" y="1332" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xHITqhW9Ctc61EoTMv0j-2" value="这部分&lt;br&gt;在队列中处理" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="945" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xHITqhW9Ctc61EoTMv0j-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="505" y="317" as="sourcePoint" />
+            <mxPoint x="775" y="317" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xHITqhW9Ctc61EoTMv0j-6" value="生成bpm_task记录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="535" y="280" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="32qUS-lmVJfvTvWxZ80Q-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="765" y="380" as="sourcePoint" />
+            <mxPoint x="504.5" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32qUS-lmVJfvTvWxZ80Q-2" value="返回bpm_task结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="350" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="32qUS-lmVJfvTvWxZ80Q-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="32qUS-lmVJfvTvWxZ80Q-5" value="处理结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="365" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xHITqhW9Ctc61EoTMv0j-1" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="380" width="330" height="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="32qUS-lmVJfvTvWxZ80Q-12" value="处理结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="387" y="476" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="32qUS-lmVJfvTvWxZ80Q-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.427;entryY=0.3;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.333;exitY=1.083;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="426.96000000000004" y="537.98" as="sourcePoint" />
+            <mxPoint x="502" y="692.0999999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="427" y="692" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32qUS-lmVJfvTvWxZ80Q-14" value="成功or失败" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="432" y="570" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="32qUS-lmVJfvTvWxZ80Q-15" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.163;exitY=0.38;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xHITqhW9Ctc61EoTMv0j-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="870" as="sourcePoint" />
+            <mxPoint x="590" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ggsLukSUiUwcx8fc8OUA" name="Bpm草稿状态通知流程图">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d1K6TNCbpuEkczcj6vJj-1" value="Odoo API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d1K6TNCbpuEkczcj6vJj-2" value="KKpartners API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d1K6TNCbpuEkczcj6vJj-3" value="KKpartners SVC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d1K6TNCbpuEkczcj6vJj-4" value="Affiliate SVC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d1K6TNCbpuEkczcj6vJj-6" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="140" width="10" height="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="d1K6TNCbpuEkczcj6vJj-7" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="140" width="10" height="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="d1K6TNCbpuEkczcj6vJj-8" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="775" y="140" width="10" height="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="d1K6TNCbpuEkczcj6vJj-9" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="140" width="10" height="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="d1K6TNCbpuEkczcj6vJj-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="226" y="240" as="sourcePoint" />
+            <mxPoint x="430" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d1K6TNCbpuEkczcj6vJj-12" value="请求api通知BPM草稿状态变更" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="235" y="208" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d1K6TNCbpuEkczcj6vJj-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.675;exitY=1.067;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="d1K6TNCbpuEkczcj6vJj-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="512.5" y="760" as="sourcePoint" />
+            <mxPoint x="1050" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d1K6TNCbpuEkczcj6vJj-30" value="打Affiliate-svc更新结账单状态为已请款" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="722" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d1K6TNCbpuEkczcj6vJj-50" value="task_status=CX" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="208" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d1K6TNCbpuEkczcj6vJj-51" value="task_status=ST" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="395" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d1K6TNCbpuEkczcj6vJj-52" value="task_status=FC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yr-nQy6QNFWr2FW89LnS-1" value="&lt;br&gt;更新草稿状态" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="760" y="210" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yr-nQy6QNFWr2FW89LnS-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="571" y="239.5" as="sourcePoint" />
+            <mxPoint x="749" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yr-nQy6QNFWr2FW89LnS-3" value="&lt;br&gt;更新草稿状态" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="760" y="395" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yr-nQy6QNFWr2FW89LnS-4" value="&lt;br&gt;更新草稿状态" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="760" y="610" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yr-nQy6QNFWr2FW89LnS-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="566" y="425" as="sourcePoint" />
+            <mxPoint x="744" y="425.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yr-nQy6QNFWr2FW89LnS-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="565" y="639.5" as="sourcePoint" />
+            <mxPoint x="743" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yr-nQy6QNFWr2FW89LnS-7" value="更新bpm_draft记录&lt;br&gt;status=&amp;nbsp;BPM_FIN_CONFIRM&lt;span style=&quot;background-color: initial;&quot;&gt;,&amp;nbsp;&lt;/span&gt;&lt;br&gt;bpm_task_status=FC" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="570" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yr-nQy6QNFWr2FW89LnS-8" value="更新bpm_draft记录&lt;br&gt;status= BPM_CANCELLED,&amp;nbsp;&lt;br&gt;bpm_task_status=CX" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="580" y="170" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yr-nQy6QNFWr2FW89LnS-9" value="更新bpm_draft记录&lt;br&gt;status= BPM_STARTED,&amp;nbsp;&lt;br&gt;bpm_task_status=ST&lt;br&gt;bpm_doc_num" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="580" y="355" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dqD1Ad47rJV84NcDh8Pu-1" value="更新bpm_settle_list记录，status=CANCEL&lt;span style=&quot;background-color: initial;&quot;&gt;(草稿已作废&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="780" y="175" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dqD1Ad47rJV84NcDh8Pu-2" value="新增bpm_status_change_log记录&lt;br&gt;action= BPM_CANCELLED&lt;br&gt;bpm_task_oid&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;bpm_task_status=CX" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="840" y="222" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="suvL1Q8shJcDdvOvqT_6-1" value="更新bpm_settle_list记录，status=REQUESTING_PAYMENT&lt;span style=&quot;background-color: initial;&quot;&gt;(请款中&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="820" y="365" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="suvL1Q8shJcDdvOvqT_6-2" value="新增bpm_status_change_log记录&lt;br&gt;action= BPM_STARTED&lt;br&gt;bpm_task_oid&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;bpm_task_status=ST&lt;br&gt;bpm_doc_num" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="840" y="412" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="suvL1Q8shJcDdvOvqT_6-4" value="新增bpm_status_change_log记录&lt;br&gt;action= BPM_FIN_CONFIRM&lt;br&gt;bpm_task_oid&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;bpm_task_status=FC&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;bpm_doc_num" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="840" y="585" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2gPlsQHkdLjq7-1YMvt--1" value="更新bpm_settle_list记录，status=PAYMENT_DONE&lt;span style=&quot;background-color: initial;&quot;&gt;(请款完成&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="785" y="555" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="12phGb9M9ZZSl9zSquP2-1" value="批次settlle_oid为单位更新" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="768" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jhl9kKr0luBcYWZe0lHF-1" value="status= BPM_CANCELLED&lt;br&gt;status=&amp;nbsp;BPM_FIN_CONFIRM&lt;br&gt;status=&amp;nbsp;CREATE_FAILED" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="335" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oP2dlYA_p-gklMQSdMMB-1" value="&amp;nbsp;status==&amp;nbsp;WAITING_CREATE 跳过发信" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-15" y="470" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C0udrv7pIfTq25-nedJA-1" value="无记录发送失败email" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="502" width="140" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

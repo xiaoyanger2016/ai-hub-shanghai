@@ -1,0 +1,455 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.7.12">
+  <diagram name="第 1 页" id="JUjFfXIJdSF78LtTO8yV">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-1" value="&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Comic Sans MS&quot;&gt;KKPAR api&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-2" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;KKPAR-735_CID退场机制流程图&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="60" width="550" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-3" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 18px;&quot;&gt;KKPAR svc&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-4" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 18px;&quot;&gt;Affiliate svc&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-5" value="&lt;span id=&quot;docs-internal-guid-18e06cb4-7fff-43b9-95c1-f8c4dfb92f96&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Comic Sans MS&amp;quot;, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Antisocial&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-6" value="" style="endArrow=none;html=1;rounded=3;entryX=0.45;entryY=10.05;entryDx=100;entryDy=0;entryPerimeter=0;fillColor=#3333FF;strokeColor=#000099;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="2560" as="sourcePoint" />
+            <mxPoint x="182" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0.45;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000066;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="458" y="2560" as="sourcePoint" />
+            <mxPoint x="462" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0.45;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#4C0099;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="2550" as="sourcePoint" />
+            <mxPoint x="742" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0.45;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000099;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1018" y="2550" as="sourcePoint" />
+            <mxPoint x="1022" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="320" as="sourcePoint" />
+            <mxPoint x="450" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-11" value="捞CID资料" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="280" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-13" value="排程任务触发" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="298" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-19" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Comic Sans MS&amp;quot;; background-color: transparent; white-space-collapse: preserve;&quot;&gt;條件一： cid 狀態為 Approved + CID Approved 最後更新時間超過三個月以上&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;&quot; id=&quot;docs-internal-guid-24cd6ac2-7fff-363f-dc7c-e48a16bf4f3d&quot;&gt;&lt;span style=&quot;background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;條件二：web_category = Earn channel all&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-family: jzuwYv0Caorr6p4pIxM1;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span id=&quot;docs-internal-guid-4e7db9b2-7fff-5835-6115-181c1415b18f&quot;&gt;&lt;span style=&quot;background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 12px;&quot;&gt;條件三：排除web_category = 0024 - Earn Influencer&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span style=&quot;font-size: 11pt; font-family: &amp;quot;Comic Sans MS&amp;quot;, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-470" y="230" width="460" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-20" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.025;exitY=0.733;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="c5dKFDcMGOkJ6Qtg1DBM-11" target="c5dKFDcMGOkJ6Qtg1DBM-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="300" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="280" y="310" />
+              <mxPoint x="250" y="295" />
+              <mxPoint x="20" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="320" as="sourcePoint" />
+            <mxPoint x="200" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="320" />
+              <mxPoint x="560" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-24" value="返回CID数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="450" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-25" value="检查数据总条数&lt;div&gt;是否超过100条&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-26" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-140" y="460" as="sourcePoint" />
+            <mxPoint x="110" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-90" y="460" />
+              <mxPoint x="20" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-28" value="队列异步捞资料，每次捞100条，每次延时30秒" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-161" y="338" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-29" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="398" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-31" value="捞CID发信记录(闲置信和停用信)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="275" y="590" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-34" value="检查CID session记录最后一次点击时间与当前日期相差天数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-161" y="698" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-35" value="超过90天且&lt;div&gt;小于180天&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-181" y="901" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-37" value="小于90天" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-367" y="899" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-38" value="&lt;div&gt;&lt;b&gt;大于180天&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="43" y="901" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-39" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-120" y="760" as="sourcePoint" />
+            <mxPoint x="-120" y="900" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-120" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-40" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-120" y="850" as="sourcePoint" />
+            <mxPoint x="123" y="900" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="123" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-42" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.417;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="c5dKFDcMGOkJ6Qtg1DBM-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-117" y="850" as="sourcePoint" />
+            <mxPoint x="-317" y="890" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-317" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-43" value="END 结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-45" value="90天内是否该CID&lt;div&gt;是否发过闲置信&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="1125" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-50" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.425;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="c5dKFDcMGOkJ6Qtg1DBM-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-119" y="966" as="sourcePoint" />
+            <mxPoint x="-119" y="1034" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-52" value="发CID闲置信件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="1260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-53" value="发CID停用信件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="39" y="1260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-48" value="180内是否发过停用信" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="43" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="c5dKFDcMGOkJ6Qtg1DBM-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-520" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-57" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1155" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-58" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="1125" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-61" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.4;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="102.5" y="961" as="sourcePoint" />
+            <mxPoint x="102.5" y="1042" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-62" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="1050" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-63" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="1200" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-64" value="触发发信事件&amp;amp;发信JOB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="1420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-65" value="异步处理，&lt;div&gt;同时进行&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="1548" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-66" value="记录Mail Send log" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-67" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.375;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="c5dKFDcMGOkJ6Qtg1DBM-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-70" y="1510" as="sourcePoint" />
+            <mxPoint x="270" y="1520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-75" y="1520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-69" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="1580" as="sourcePoint" />
+            <mxPoint x="450" y="1450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="1580" />
+              <mxPoint x="280" y="1450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-70" value="队列异步处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="1490" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-71" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-370" y="920" as="sourcePoint" />
+            <mxPoint x="-520" y="1040" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-520" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-72" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="1080" as="sourcePoint" />
+            <mxPoint x="-480" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-76" value="结束检查流程，不做任何操作" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="1050" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-77" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-121" y="1188" as="sourcePoint" />
+            <mxPoint x="-120.5" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-78" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="102.5" y="1100" as="sourcePoint" />
+            <mxPoint x="102.5" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-80" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.442;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="c5dKFDcMGOkJ6Qtg1DBM-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-67" y="1360" as="sourcePoint" />
+            <mxPoint x="140" y="1370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-82" value="" style="endArrow=none;html=1;rounded=0;exitX=0.333;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="c5dKFDcMGOkJ6Qtg1DBM-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="1420" as="sourcePoint" />
+            <mxPoint x="80" y="1323" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-160" y="1360" />
+              <mxPoint x="80" y="1360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-83" value="&lt;b&gt;将CID状态更新为&lt;span id=&quot;docs-internal-guid-3042e86e-7fff-c130-c674-5ea403aa35ee&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; color: rgb(0, 0, 255); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;Suspended&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#80FF00;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-86" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="1700" as="sourcePoint" />
+            <mxPoint x="450" y="1700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-87" value="更新CID状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1661" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-88" value="发信" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="285" y="1418" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-89" value="新增发信记录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1548" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-94" value="将CID状态Sync到KKdb&lt;div&gt;(affiliate-svc api)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-95" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="1700" as="sourcePoint" />
+            <mxPoint x="250" y="1840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="1700" />
+              <mxPoint x="560" y="1840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-96" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.167;exitY=1.067;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="c5dKFDcMGOkJ6Qtg1DBM-94">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="1990" as="sourcePoint" />
+            <mxPoint x="740" y="1920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="1920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-100" value="打affiliate-svc api sync CID状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="215" y="1890" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-102" value="触发&lt;div&gt;CID状态变更事件&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="2020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-103" value="通过队列Sync&amp;nbsp;&lt;span id=&quot;docs-internal-guid-fc6628f5-7fff-5c12-4ba0-e974f7ad3424&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: &amp;quot;Comic Sans MS&amp;quot;, sans-serif; background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;Antisocial&lt;/span&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="2020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-104" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-200" y="2090" as="sourcePoint" />
+            <mxPoint x="1010" y="2160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-200" y="2160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-106" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;autosize=1;resizable=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="1964" as="sourcePoint" />
+            <mxPoint x="30" y="2040" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="2040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-107" value="打antisocial api sync" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="2125" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-108" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;autosize=1;resizable=0;strokeColor=#80FF00;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="920" as="sourcePoint" />
+            <mxPoint x="220" y="1660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-109" value="&lt;span style=&quot;text-wrap: wrap;&quot;&gt;将CID状态更新为&lt;/span&gt;&lt;span style=&quot;text-wrap: wrap;&quot; id=&quot;docs-internal-guid-3042e86e-7fff-c130-c674-5ea403aa35ee&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; color: rgb(0, 0, 255); background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;Suspended&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1110" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-114" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;返回CID数据&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="78" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-115" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;autosize=1;resizable=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="61" y="490" as="sourcePoint" />
+            <mxPoint x="-59" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-117" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;autosize=1;resizable=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="620" as="sourcePoint" />
+            <mxPoint x="460" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="620" />
+              <mxPoint x="280" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-118" value="捞CID点击记录（Session数据）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="280" y="500" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-125" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;autosize=1;resizable=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="560" as="sourcePoint" />
+            <mxPoint x="240" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="560" />
+              <mxPoint x="560" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-126" value="返回数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="260" y="698" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-127" value="返回更新结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1808" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-128" value="处理返回数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="698" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-129" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;autosize=1;resizable=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="730" as="sourcePoint" />
+            <mxPoint x="-30" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-131" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;捞Session记录和&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;发信记录&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="78" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-132" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;autosize=1;resizable=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="590" as="sourcePoint" />
+            <mxPoint x="270" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-133" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;autosize=1;resizable=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="520" as="sourcePoint" />
+            <mxPoint x="130" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-136" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;autosize=1;resizable=0;strokeColor=#0066CC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="1500" as="sourcePoint" />
+            <mxPoint x="1160" y="1580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-137" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;autosize=1;resizable=0;entryX=0;entryY=1;entryDx=0;entryDy=0;strokeColor=#0066CC;" edge="1" parent="1" target="c5dKFDcMGOkJ6Qtg1DBM-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="1920" as="sourcePoint" />
+            <mxPoint x="820" y="1870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5dKFDcMGOkJ6Qtg1DBM-138" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;autosize=1;resizable=0;entryX=0;entryY=1;entryDx=0;entryDy=0;strokeColor=#0066CC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1030" y="2160" as="sourcePoint" />
+            <mxPoint x="1190" y="1618" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KgGkEJ8VjizPwV9r_vFr-1" value="kkpar svc更新成功后再sync" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-41" y="1980" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KgGkEJ8VjizPwV9r_vFr-3" value="更新失败" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="1800" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KgGkEJ8VjizPwV9r_vFr-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="1837" as="sourcePoint" />
+            <mxPoint x="-200" y="1837" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KgGkEJ8VjizPwV9r_vFr-5" value="END 结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="1808" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KgGkEJ8VjizPwV9r_vFr-6" value="更新成功" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="39" y="1900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KgGkEJ8VjizPwV9r_vFr-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-100" y="2039" as="sourcePoint" />
+            <mxPoint x="-190" y="2039" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
