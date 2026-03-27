@@ -26,3 +26,4 @@
 - `constitution`：执行过 `/speckit.constitution` 生成 `.specify/constitution.md` 为 ✅
 - `settings.local`：`.claude/settings.local.json` 含 `autoMemoryDirectory` 指向 ai-hub-shanghai 为 ✅
 - `验证通过`：Step 8 验证所有检查项均通过为 ✅
+| `kkday-ota-api-84` | `/Applications/ServBay/www/kkday-ota-api-84` | 2026-03-27 | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |

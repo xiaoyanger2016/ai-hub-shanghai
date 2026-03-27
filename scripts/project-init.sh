@@ -225,27 +225,46 @@ else
 fi
 
 # ---------------------------------------------------------------------------
-# Step 5 — 安装 speckit
+# Step 5 — 初始化 speckit 目录结构
 # ---------------------------------------------------------------------------
-step "Step 5 — 检查 / 安装 speckit"
+step "Step 5 — 初始化 speckit 目录结构"
 
-if [ -d "$PROJECT_DIR/.specify" ]; then
-  success "speckit 已安装（.specify/ 目录存在）"
+SPECIFY_DIR="$PROJECT_DIR/.specify"
+
+if [ -d "$SPECIFY_DIR" ] && [ "$FORCE" = false ]; then
+  success "speckit 已初始化（.specify/ 目录存在）"
   STEP5_STATUS="✅"
 else
-  info "安装 speckit..."
-  cd "$PROJECT_DIR"
-  # 非交互模式初始化 speckit（默认选项：claude, here, sh）
-  if npx speckit@latest init --ai claude --mode here --script sh --yes 2>/dev/null; then
-    success "speckit 安装完成"
+  info "从模板复制 speckit 目录结构..."
+
+  # 查找参考项目（优先使用 kkday-kkpartners-api）
+  REFERENCE_SPECIFY=""
+  for candidate in "$PROJECTS_BASE/kkday-kkpartners-api/.specify" "$AI_HUB_DIR/../kkday-kkpartners-api/.specify"; do
+    if [ -d "$candidate" ]; then
+      REFERENCE_SPECIFY="$candidate"
+      break
+    fi
+  done
+
+  if [ -n "$REFERENCE_SPECIFY" ]; then
+    mkdir -p "$SPECIFY_DIR/memory" "$SPECIFY_DIR/scripts" "$SPECIFY_DIR/templates"
+    cp "$REFERENCE_SPECIFY/init-options.json" "$SPECIFY_DIR/init-options.json"
+    [ -d "$REFERENCE_SPECIFY/scripts" ] && cp -r "$REFERENCE_SPECIFY/scripts/." "$SPECIFY_DIR/scripts/"
+
+    # 使用 global 通用需求模板
+    if [ -f "$TEMPLATE_DIR/requirements-template.md" ]; then
+      cp "$TEMPLATE_DIR/requirements-template.md" "$SPECIFY_DIR/templates/requirements-template.md"
+    fi
+
+    success "speckit 目录结构已创建（从 $(basename $(dirname $REFERENCE_SPECIFY)) 复制）"
+    info "⚠️  /speckit.constitution 需在 Claude Code 中手动执行（交互式，无法自动化）"
     STEP5_STATUS="✅"
   else
-    warn "speckit 自动初始化失败，请手动执行："
-    warn "  cd $PROJECT_DIR && npx speckit@latest init"
-    warn "  选项：AI=claude, mode=here, script=sh"
+    warn "未找到参考项目的 .specify 目录，请手动执行："
+    warn "  cd $PROJECT_DIR && specify init --here"
+    warn "  或手动创建 .specify/ 目录结构"
     STEP5_STATUS="❌"
   fi
-  cd "$AI_HUB_DIR"
 fi
 
 # ---------------------------------------------------------------------------
